@@ -16,6 +16,11 @@ callback("onItemPickup", function(player)
         misc.shakeScreen(20) 
         player.giveItem(infusion, 69)
     else
+        graphics.drawImage{
+            image = ArtifactEnable.png,
+            x = 0,
+            y = 0
+        }
         player:kill()
     end
 end)
