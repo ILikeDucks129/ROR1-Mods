@@ -4,8 +4,4 @@
 
 -- Load the other Lua scripts
 
-require("juice")
-require("voltberry")
-require("scarf")
-require("jam")
-require("example artifact")
+require("x100")

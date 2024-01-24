@@ -1,0 +1,7 @@
+{
+    "name": "X100 Artifact",
+    "description": "Adds an artifact that multiplies all item pickups my 100\nWorking on making the mod multiply EVERYTHING x100.",
+	"internalname": "X100",
+    "version": "0.1",
+    "author": "IEatBricks"
+}

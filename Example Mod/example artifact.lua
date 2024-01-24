@@ -3,13 +3,13 @@
 ---- Adds a new artifact which makes all actors fall more slowly and jump higher
 
 -- Creates a new artifact with the name Artifact of Antigrav
-local artifact = Artifact.new("X100")
+local artifact = Artifact.new("Antigrav")
 -- Make the artifact be unlocked by default
 artifact.unlocked = true
 
 -- Set the artifact's loadout info
-artifact.loadoutSprite = Sprite.load("x100.png", 2, 18, 18)
-artifact.loadoutText = "Multiplies all item pickups by 100 times."
+artifact.loadoutSprite = Sprite.load("example artifact loadout.png", 2, 18, 18)
+artifact.loadoutText = "Decreased gravity and increased jump height."
 
 
 registercallback("onActorInit", function(actor)
